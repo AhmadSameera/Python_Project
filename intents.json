@@ -1,0 +1,103 @@
+{"intents": [
+  {
+    "tag": "greeting",
+    "patterns": ["Hi", "How are you amika", "Hello ", "Good day", "Hay amika", "greetings"],
+    "responses": ["Hello! Its amika here..","hi,its really good to hear from you", "Good to see you !!", "Hi there, how can I help?"]
+  },
+  {
+    "tag": "bye",
+    "patterns": ["bye","goodbye","i have to go"],
+    "responses": ["bye","goodbye","have a nice day","see you later","thankyou"]
+  },
+  {
+    "tag": "about",
+    "patterns": ["how are you","are you fine?","what about you"],
+    "responses": ["i'm fine, you are very kind to ask","Thankyou for asking, i am doing ok. I hope you are doing well too","I am great"]
+  },
+  {
+    "tag": "identity",
+    "patterns": ["what is your name?","who are you?","your name"],
+    "responses": ["My name is Amica","I am Amica, your virtual assistant"]
+  },
+   {
+    "tag": "time",
+    "patterns": ["what is the time","what time","time","tell me the current time"],
+    "responses": ["time"]
+  },
+  {
+    "tag": "notepad",
+    "patterns": ["open notepad","write in notepad","notepad"],
+    "responses": ["notepad"]
+  },
+   {
+    "tag": "date",
+    "patterns": ["day","year","month","what is the date","day today"],
+    "responses": ["date"]
+  },
+  {
+    "tag": "weather",
+    "patterns": ["temperature","weather forecast","check the weather","weather","windspeed","climate"],
+    "responses": ["weatherReports"]
+  },
+  {
+    "tag": "information",
+    "patterns": ["what is","who is","get information","about","find"],
+    "responses": ["information"]
+  },
+  {
+    "tag": "google",
+    "patterns": ["google search","search","about","find"],
+    "responses": ["google"]
+  },
+  {
+    "tag": "jokes",
+    "patterns": ["tell me a joke","something funny","can you make me laugh","Jokes","tell a joke","speak a joke for me "],
+    "responses": ["jokes"]
+  },
+  {
+    "tag": "screenshot",
+    "patterns": ["take a screenshot","what about you"],
+    "responses": ["screenshot"]
+  },
+  {
+    "tag": "spotify",
+    "patterns": ["open spotify","spotify","music on spotify"],
+    "responses": ["spotify"]
+  },
+  {
+    "tag": "play",
+    "patterns": ["play song","play something","i want to listen something"],
+    "responses": ["play"]
+  },
+  {
+    "tag": "open gmail",
+    "patterns": ["open gmail","gmail","check my mail"],
+    "responses": ["open gmail"]
+  },
+  {
+    "tag": "open google",
+    "patterns": ["open google","chrome","open chrome","google","google open"],
+    "responses": ["open google"]
+  },
+  {
+    "tag": "news",
+    "patterns": ["show news","news","tell me news","whats going on in India","latest new","todays news"],
+    "responses": ["news"]
+  },
+  {
+    "tag": "camera",
+    "patterns": ["detect an object","open camera and detect","open camera"],
+    "responses": ["camera"]
+  },
+   {
+    "tag": "note",
+    "patterns": ["write a note","make a note","note","write note","msg write in note"],
+    "responses": ["note"]
+  },
+   {
+    "tag": "alarm",
+    "patterns": ["set an alarm","alarm","put an alarm","alarm set"],
+    "responses": ["alarm"]
+  }
+]
+}
